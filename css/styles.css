@@ -1,0 +1,46 @@
+* {
+    font-family: Quicksand;
+    font-size: 16px;
+    color: #333;
+}
+
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: linear-gradient(to top, #0066ff, #008aff, #00a8ff, #10c3ff, #78dbff) !important;
+    background: no-repeat center center fixed;
+}
+
+.glass {
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 6.5px);
+    -webkit-backdrop-filter: blur( 6.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+body {
+    background-color: transparent !important;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding: 15px;
+}
+
+h3 b {
+    font-size: 32px;
+    font-weight: 300;
+    color: #289df6;
+}
